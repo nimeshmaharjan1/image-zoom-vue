@@ -39,13 +39,6 @@ const counterStore = useCounterStore();
 </template>
 
 <style lang="scss">
-// img {
-//   width: 600px;
-//   height: 400px;
-//   &:hover {
-//     cursor: pointer;
-//   }
-// }
 .viewer-prev,
 .viewer-next,
 .viewer-one-to-one,
