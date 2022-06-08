@@ -18,9 +18,10 @@
     </div>
   </section>
 </template>
-<script setup lang="ts">
+<script setup>
 import { ref } from "@vue/reactivity";
 import { onMounted } from "@vue/runtime-core";
+// @filename: ImageViewer.js
 import { ImageViewer } from "../utils/ImageViewer";
 const imageSrc = "src/assets/hello.jpg";
 const canvasId = "viewerCanvas";
