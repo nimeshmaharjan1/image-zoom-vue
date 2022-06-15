@@ -23,11 +23,11 @@ import { ref } from "@vue/reactivity";
 import { onMounted } from "@vue/runtime-core";
 // @filename: ImageViewer.js
 import { ImageViewer } from "../utils/ImageViewer";
-const imageSrc = "src/assets/hello.jpg";
+import testImage from "../assets/hello.jpg";
 const canvasId = "viewerCanvas";
 let myImageViewer = ref(null);
 onMounted(() => {
-  myImageViewer = new ImageViewer(canvasId, imageSrc);
+  myImageViewer = new ImageViewer(canvasId, testImage);
 });
 function toDefault() {
   if (myImageViewer !== null) {
